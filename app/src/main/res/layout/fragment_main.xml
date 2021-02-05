@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MainFragment">
+
+    <LinearLayout
+        android:background="@color/colorPrimaryDark"
+        android:layout_gravity="top"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:background="@color/white"
+                android:src="@drawable/bussiness"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:id="@+id/btn_main"
+                android:text="business"
+                android:textSize="8sp"
+                android:layout_margin="5dp"/>
+            <ImageView
+                android:background="@color/white"
+                android:layout_width="0dp"
+                android:src="@drawable/entertain"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:id="@+id/btn_entertainment"
+                android:text="entertainment"
+                android:textSize="8sp"
+                android:layout_margin="5dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:background="@color/white"
+                android:layout_width="0dp"
+                android:src="@drawable/atom"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:id="@+id/btn_science"
+                android:textSize="8sp"
+                android:text="science"
+                android:layout_margin="5dp"/>
+            <ImageView
+                android:background="@color/white"
+                android:layout_width="0dp"
+                android:src="@drawable/dumbbell"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:textSize="8sp"
+                android:id="@+id/btn_sports"
+                android:text="sports"
+                android:layout_margin="5dp"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:background="@color/white"
+                android:layout_width="0dp"
+                android:src="@drawable/health"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:id="@+id/btn_health"
+                android:textSize="8sp"
+                android:text="health"
+                android:layout_margin="5dp"/>
+            <ImageView
+                android:background="@color/white"
+                android:layout_width="0dp"
+                android:src="@drawable/data"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:id="@+id/btn_technology"
+                android:textSize="8sp"
+                android:text="technology"
+                android:layout_margin="5dp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher_foreground"/>
+    </LinearLayout>
+
+</FrameLayout>
